@@ -2,7 +2,7 @@
 <html lang="en">
   {% include head.html %}
 
-  <body>
+  <body data-spy="scroll" data-target="#site-nav" data-offset="80" data-scroll-animation="true">
     {% include analytics.html %}
     {% include header.html %}
 
@@ -13,6 +13,7 @@
     </div>
 
 
+    {% include footer.html %}
 
     <script src="{{ '/js/jquery-3.5.1.min.js' | prepend: site.baseurl }}"></script>
     <script src="{{ '/js/bootstrap.bundle.min.js' | prepend: site.baseurl }}"></script>

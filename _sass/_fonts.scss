@@ -1,0 +1,181 @@
+@font-face {
+  font-family: 'Nista';
+  src: url('/fonts/Nista/BwNistaGeo-Bd.eot');
+  src: url('/fonts/Nista/BwNistaGeo-Bd.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/Nista/BwNistaGeo-Bd.woff2') format('woff2'),
+      url('/fonts/Nista/BwNistaGeo-Bd.woff') format('woff'),
+      url('/fonts/Nista/BwNistaGeo-Bd.ttf') format('truetype'),
+      url('/fonts/Nista/BwNistaGeo-Bd.svg#BwNistaGeo-Bd') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nista';
+  src: url('/fonts/Nista/BwNistaGeo-BdIt.eot');
+  src: url('/fonts/Nista/BwNistaGeo-BdIt.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/Nista/BwNistaGeo-BdIt.woff2') format('woff2'),
+      url('/fonts/Nista/BwNistaGeo-BdIt.woff') format('woff'),
+      url('/fonts/Nista/BwNistaGeo-BdIt.ttf') format('truetype'),
+      url('/fonts/Nista/BwNistaGeo-BdIt.svg#BwNistaGeo-BdIt') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nista';
+  src: url('/fonts/Nista/BwNistaGeo-Bk.eot');
+  src: url('/fonts/Nista/BwNistaGeo-Bk.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/Nista/BwNistaGeo-Bk.woff2') format('woff2'),
+      url('/fonts/Nista/BwNistaGeo-Bk.woff') format('woff'),
+      url('/fonts/Nista/BwNistaGeo-Bk.ttf') format('truetype'),
+      url('/fonts/Nista/BwNistaGeo-Bk.svg#BwNistaGeo-Bk') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nista';
+  src: url('/fonts/Nista/BwNistaGeo-Th.eot');
+  src: url('/fonts/Nista/BwNistaGeo-Th.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/Nista/BwNistaGeo-Th.woff2') format('woff2'),
+      url('/fonts/Nista/BwNistaGeo-Th.woff') format('woff'),
+      url('/fonts/Nista/BwNistaGeo-Th.ttf') format('truetype'),
+      url('/fonts/Nista/BwNistaGeo-Th.svg#BwNistaGeo-Th') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nista';
+  src: url('/fonts/Nista/BwNistaGeo-xBd.eot');
+  src: url('/fonts/Nista/BwNistaGeo-xBd.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/Nista/BwNistaGeo-xBd.woff2') format('woff2'),
+      url('/fonts/Nista/BwNistaGeo-xBd.woff') format('woff'),
+      url('/fonts/Nista/BwNistaGeo-xBd.ttf') format('truetype'),
+      url('/fonts/Nista/BwNistaGeo-xBd.svg#BwNistaGeo-xBd') format('svg');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nista';
+  src: url('/fonts/Nista/BwNistaGeo-BkIt.eot');
+  src: url('/fonts/Nista/BwNistaGeo-BkIt.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/Nista/BwNistaGeo-BkIt.woff2') format('woff2'),
+      url('/fonts/Nista/BwNistaGeo-BkIt.woff') format('woff'),
+      url('/fonts/Nista/BwNistaGeo-BkIt.ttf') format('truetype'),
+      url('/fonts/Nista/BwNistaGeo-BkIt.svg#BwNistaGeo-BkIt') format('svg');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nista';
+  src: url('/fonts/Nista/BwNistaGeo-RgIt.eot');
+  src: url('/fonts/Nista/BwNistaGeo-RgIt.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/Nista/BwNistaGeo-RgIt.woff2') format('woff2'),
+      url('/fonts/Nista/BwNistaGeo-RgIt.woff') format('woff'),
+      url('/fonts/Nista/BwNistaGeo-RgIt.ttf') format('truetype'),
+      url('/fonts/Nista/BwNistaGeo-RgIt.svg#BwNistaGeo-RgIt') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nista';
+  src: url('/fonts/Nista/BwNistaGeo-xBdIt.eot');
+  src: url('/fonts/Nista/BwNistaGeo-xBdIt.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/Nista/BwNistaGeo-xBdIt.woff2') format('woff2'),
+      url('/fonts/Nista/BwNistaGeo-xBdIt.woff') format('woff'),
+      url('/fonts/Nista/BwNistaGeo-xBdIt.ttf') format('truetype'),
+      url('/fonts/Nista/BwNistaGeo-xBdIt.svg#BwNistaGeo-xBdIt') format('svg');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nista';
+  src: url('/fonts/Nista/BwNistaGeo-Rg.eot');
+  src: url('/fonts/Nista/BwNistaGeo-Rg.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/Nista/BwNistaGeo-Rg.woff2') format('woff2'),
+      url('/fonts/Nista/BwNistaGeo-Rg.woff') format('woff'),
+      url('/fonts/Nista/BwNistaGeo-Rg.ttf') format('truetype'),
+      url('/fonts/Nista/BwNistaGeo-Rg.svg#BwNistaGeo-Rg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nista';
+  src: url('/fonts/Nista/BwNistaGeo-Lt.eot');
+  src: url('/fonts/Nista/BwNistaGeo-Lt.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/Nista/BwNistaGeo-Lt.woff2') format('woff2'),
+      url('/fonts/Nista/BwNistaGeo-Lt.woff') format('woff'),
+      url('/fonts/Nista/BwNistaGeo-Lt.ttf') format('truetype'),
+      url('/fonts/Nista/BwNistaGeo-Lt.svg#BwNistaGeo-Lt') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nista';
+  src: url('/fonts/Nista/BwNistaGeo-ThIt.eot');
+  src: url('/fonts/Nista/BwNistaGeo-ThIt.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/Nista/BwNistaGeo-ThIt.woff2') format('woff2'),
+      url('/fonts/Nista/BwNistaGeo-ThIt.woff') format('woff'),
+      url('/fonts/Nista/BwNistaGeo-ThIt.ttf') format('truetype'),
+      url('/fonts/Nista/BwNistaGeo-ThIt.svg#BwNistaGeo-ThIt') format('svg');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nista';
+  src: url('/fonts/Nista/BwNistaGeo-Md.eot');
+  src: url('/fonts/Nista/BwNistaGeo-Md.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/Nista/BwNistaGeo-Md.woff2') format('woff2'),
+      url('/fonts/Nista/BwNistaGeo-Md.woff') format('woff'),
+      url('/fonts/Nista/BwNistaGeo-Md.ttf') format('truetype'),
+      url('/fonts/Nista/BwNistaGeo-Md.svg#BwNistaGeo-Md') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nista';
+  src: url('/fonts/Nista/BwNistaGeo-MdIt.eot');
+  src: url('/fonts/Nista/BwNistaGeo-MdIt.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/Nista/BwNistaGeo-MdIt.woff2') format('woff2'),
+      url('/fonts/Nista/BwNistaGeo-MdIt.woff') format('woff'),
+      url('/fonts/Nista/BwNistaGeo-MdIt.ttf') format('truetype'),
+      url('/fonts/Nista/BwNistaGeo-MdIt.svg#BwNistaGeo-MdIt') format('svg');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nista';
+  src: url('/fonts/Nista/BwNistaGeo-LtIt.eot');
+  src: url('/fonts/Nista/BwNistaGeo-LtIt.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/Nista/BwNistaGeo-LtIt.woff2') format('woff2'),
+      url('/fonts/Nista/BwNistaGeo-LtIt.woff') format('woff'),
+      url('/fonts/Nista/BwNistaGeo-LtIt.ttf') format('truetype'),
+      url('/fonts/Nista/BwNistaGeo-LtIt.svg#BwNistaGeo-LtIt') format('svg');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
