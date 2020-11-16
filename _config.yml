@@ -9,12 +9,10 @@ url:              'https://selectize.dev' # The base hostname & protocol for you
 markdown:  kramdown
 permalink: pretty
 highlighter: rouge
-paginate:  12
 category_dir: topics
 category_title_prefix:
 
-plugins:
-  - jekyll-paginate
+  plugins:
   - jekyll/tagging
 
 include:

@@ -1,0 +1,9 @@
+<div class="section my-lg" id="blog">
+  <div class="container">
+    <div class="row">
+      {% for post in site.categories.demos %}
+        {% include demos/post-card.html %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

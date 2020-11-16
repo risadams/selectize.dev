@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Demos
-image: '/images/pages/about.jpg'
+image: "/images/pages/about.jpg"
 ---
 
-TODO
+{% include demos/masthead.html %}
+{% include demos/post-list.html %}
