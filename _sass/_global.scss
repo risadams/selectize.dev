@@ -13,14 +13,14 @@ h6 {
   font-family: $heading-font;
   line-height: 1.5;
 }
-F a {
+a {
   color: $brand-primary;
   text-decoration: none;
   transition: all 0.3s ease;
   &:hover,
   &:focus,
   &:active {
-    color: darken($brand-primary, 30%);
+    color: darken($brand-primary, 10%);
     text-decoration: none;
   }
 }
