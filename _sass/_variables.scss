@@ -1,5 +1,5 @@
 // Colors
-//
+
 // Grayscale and brand colors for use across Bootstrap.
 // Start with assigning color names to specific hex values.
 $white: #fff;
@@ -13,7 +13,7 @@ $teal: #5bc0de;
 $pink: #ff5b77;
 $purple: #7642ff;
 $body: #3e396b;
-//
+
 // Create grayscale
 $gray-dark: #292b2c;
 $gray: #464a4c;
@@ -21,20 +21,28 @@ $gray-light: #636c72;
 $gray-lighter: #eceeef;
 $gray-lightest: #f8faff;
 $blue-gray-light: #f0f3f7;
-//
+
 // Reassign color vars to semantic color scheme
 $brand-primary: #d21f79;
-$brand-secondary: $purple;
+$brand-secondary: #3e396b;
+
 $brand-success: $green;
 $brand-info: $teal;
 $brand-warning: $orange;
 $brand-danger: $red;
 $brand-inverse: $gray-dark;
-//
+
 // Fonts
 $heading-font: "Sentral", Helvetica, Arial, serif;
 $body-font: "Sentral", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-//
+
+.fad {
+  color: $brand-primary;
+}
+.fad:after {
+  color: $brand-primary;
+}
+
 @mixin _assert-ascending($map, $map-name) {
   $prev-key: null;
   $prev-num: null;

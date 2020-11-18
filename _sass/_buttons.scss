@@ -36,13 +36,13 @@
   background-image: linear-gradient(90deg, $brand-primary, $brand-secondary);
   border: 0;
   color: $white;
-  //box-shadow: 0 0 20px rgba($brand-primary, 0.5);
+  box-shadow: 0 0 20px rgba($brand-primary, 0.5);
   &:hover,
   &:active {
     color: $white;
     background-color: darken($brand-primary, 5%);
     background-image: linear-gradient(90deg, $brand-secondary, $brand-primary);
-    //box-shadow: 0 5px 30px rgba($brand-primary, 0.5);
+    box-shadow: 0 5px 30px rgba($brand-primary, 0.5);
   }
 }
 
@@ -65,13 +65,13 @@
   background-image: none;
   background-color: transparent;
   border-color: $brand-primary;
-  //box-shadow: 0 0 20px rgba($brand-primary, 0.2);
+  box-shadow: 0 0 20px rgba($brand-primary, 0.2);
   &:hover,
   &:active {
     color: $white;
     background-color: $brand-primary;
     border-color: $brand-primary;
     background-image: linear-gradient(90deg, $brand-primary, $brand-secondary);
-    //box-shadow: 0 5px 30px rgba($brand-primary, 0.5);
+    box-shadow: 0 5px 30px rgba($brand-primary, 0.5);
   }
 }

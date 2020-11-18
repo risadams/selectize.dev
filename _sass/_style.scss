@@ -1,7 +1,3 @@
-/*-----------------------------------
- * Header
- *-----------------------------------*/
-
 header {
   position: relative;
 }
@@ -377,7 +373,33 @@ header {
   }
 }
 
-/*Dropdown*/
+@include media-breakpoint-down(md) {
+  .navbar {
+    &-brand {
+      .logo {
+        height: 50px;
+      }
+      .wordmark {
+        width: 120px;
+        margin-left: 0.25rem;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .navbar {
+    &-brand {
+      .logo {
+        height: 72px;
+      }
+      .wordmark {
+        width: 180px;
+        margin-left: 1rem;
+      }
+    }
+  }
+}
 
 .dropdown-menu {
   border-radius: 0;
@@ -394,44 +416,6 @@ header {
   color: $black;
   background-color: $gray-lightest;
 }
-
-/*-----------------------------------
- * YOUTUBE VIDEO
- *-----------------------------------*/
-
-iframe {
-  display: block;
-}
-
-.youtube {
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  overflow: hidden;
-  transition: all 200ms ease-out;
-  cursor: pointer;
-}
-
-.youtube .play {
-  background: #fff;
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: 0px 9px 68px 0px rgba(62, 57, 107, 0.2);
-  text-align: center;
-  padding: 17px 20px;
-  span {
-    color: $brand-primary;
-  }
-}
-
-/*-----------------------------------
- * CLIENT LOGOS
- *-----------------------------------*/
 
 .client-logos.negative-margin {
   margin-top: -180px;
@@ -458,10 +442,6 @@ iframe {
     height: 50px;
   }
 }
-
-/*-----------------------------------
- * FEATURES
- *-----------------------------------*/
 
 .browser-window {
   display: inline-block;
@@ -524,16 +504,11 @@ iframe {
 
 .media-icon i {
   min-width: 50px;
-  color: $brand-primary;
 }
 
 .color-icon i {
   color: $brand-primary;
 }
-
-/*-----------------------------------
- * CARDS
- *-----------------------------------*/
 
 .card {
   transition: all 0.3s ease;
@@ -546,10 +521,6 @@ iframe {
 .stat-counter {
   color: $white;
 }
-
-/*-----------------------------------
- * TWITTER CARDS
- *-----------------------------------*/
 
 .embed_twitter iframe {
   margin: 0 auto !important;
@@ -575,39 +546,6 @@ iframe {
   }
 }
 
-/*-----------------------------------
- * PRICING
- *-----------------------------------*/
-
-.pricing {
-  text-align: center;
-  padding: 20px;
-  border: 0;
-  border-radius: 15px;
-  margin-bottom: 30px;
-  small {
-    letter-spacing: 2px;
-  }
-  .card-title {
-    font-size: 65px;
-    font-family: $heading-font;
-    font-weight: 700;
-    margin: 10px 0 15px;
-  }
-  .plan-muted {
-    text-decoration: line-through;
-    opacity: 0.5;
-  }
-  ul {
-    line-height: 2.5;
-    margin: 0 0 20px;
-  }
-}
-
-/*-----------------------------------
- * FORM
- *-----------------------------------*/
-
 .form-control {
   height: 50px;
   border-radius: 30px;
@@ -621,36 +559,9 @@ iframe {
   padding: 15px 0;
 }
 
-/*-----------------------------------
- * CONTACT
- *-----------------------------------*/
-
-#map {
-  height: 620px;
-  width: 100%;
-}
-
-.contact-box {
-  background: $white;
-  margin-top: -250px;
-  box-shadow: 0 0 50px rgba($black, 0.2);
-}
-
-.address-box {
-  padding: 30px;
-  color: $white;
-  a {
-    color: $white;
-  }
-}
-
 .message-box {
   padding: 30px;
 }
-
-/*-----------------------------------
- * FOOTER
- *-----------------------------------*/
 
 .footer-links {
   li {
@@ -664,10 +575,6 @@ iframe {
     }
   }
 }
-
-/*-----------------------------------
- * BLOG
- *-----------------------------------*/
 
 .post_title {
   font-weight: 300;
@@ -742,28 +649,4 @@ a.title {
   text-align: center;
   margin: 0.8em 0 1.5em;
   color: $gray-light;
-}
-
-/*Comments*/
-
-.comments-area {
-  max-width: 730px;
-  margin: 20px auto;
-}
-
-.comment {
-  .avatar {
-    width: 60px;
-    margin-right: 1rem;
-  }
-  ol.children {
-    border-left: 2px solid $gray-lighter;
-  }
-}
-
-.comment-respond {
-  @extend .comments-area;
-  border-top: 1px solid $gray-lighter;
-  margin-top: 3em;
-  padding-top: 2em;
 }
