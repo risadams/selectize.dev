@@ -22,7 +22,12 @@
   <link rel="stylesheet" href="{{ '/css/app.css' | prepend: site.baseurl }}" />
 
   <link rel="stylesheet" href="{{ '/css/selectize.css' | prepend: site.baseurl }}" />
-  <link rel="stylesheet" href="{{ '/css/selectize.bootstrap4.css' | prepend: site.baseurl }}" />
+
+  <link rel="stylesheet" href="{{ '/css/selectize.default.css' | prepend: site.baseurl }}"    data-theme="default" />
+  <link rel="stylesheet" href="{{ '/css/selectize.bootstrap2.css' | prepend: site.baseurl }}" data-theme="bootstrap2" disabled="disabled" />
+  <link rel="stylesheet" href="{{ '/css/selectize.bootstrap3.css' | prepend: site.baseurl }}" data-theme="bootstrap3" disabled="disabled" />
+  <link rel="stylesheet" href="{{ '/css/selectize.bootstrap4.css' | prepend: site.baseurl }}" data-theme="bootstrap4" disabled="disabled" />
+  <link rel="stylesheet" href="{{ '/css/selectize.legacy.css' | prepend: site.baseurl }}"     data-theme="legacy"     disabled="disabled" />
 
   {% include scripts.html %}
 

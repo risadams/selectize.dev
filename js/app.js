@@ -1,4 +1,16 @@
 $(function () {
+  //switch themes
+  var $theme_links = $("#theme-selector button");
+  $theme_links.on("click", function () {
+    var theme = $(this).attr("data-theme");
+    $theme_links.removeClass("active btn-primary");
+    $theme_links.addClass("btn-secondary");
+    $(this).addClass("active btn-primary");
+    $("link[data-theme]").prop("disabled", true);
+    $("link[data-theme=" + theme + "]").prop("disabled", false);
+  });
+
+  //toggle source code display
   $("script.show").each(function () {
     var $a, $pre;
     var self = this;
