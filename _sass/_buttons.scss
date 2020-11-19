@@ -75,3 +75,11 @@
     box-shadow: 0 5px 30px rgba($brand-primary, 0.5);
   }
 }
+
+.btn-group {
+  &.square {
+    .btn {
+      border-radius: 0;
+    }
+  }
+}

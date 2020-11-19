@@ -1,6 +1,6 @@
 $(function () {
   //switch themes
-  var $theme_links = $("#theme-selector button");
+  var $theme_links = $(".theme-selector button");
   $theme_links.on("click", function () {
     var theme = $(this).attr("data-theme");
     $theme_links.removeClass("active btn-primary");
