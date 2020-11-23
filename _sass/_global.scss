@@ -67,6 +67,10 @@ a {
   margin-bottom: 2rem !important;
 }
 
+.pa-2 {
+  padding: 2rem;
+}
+
 @include media-breakpoint-up(md) {
   .my-md-lg {
     margin-top: 5em !important;

@@ -534,8 +534,16 @@ a.title {
   }
 }
 
-.alignleft {
-  display: inline;
-  float: left;
-  margin-right: 1.5em;
+aside {
+  &.sidebar {
+    position: sticky;
+    top: 72px;
+
+    header {
+      h2 {
+        padding: 0.875rem 1.25rem;
+        font-size: 1.2rem;
+      }
+    }
+  }
 }
