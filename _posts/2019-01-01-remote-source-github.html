@@ -15,8 +15,8 @@ categories:
     <select id="select-repo" class="repositories" placeholder="Pick a repository...">
       <option
         selected
-        value="https://github.com/brianreavis/selectize.js"
-        data-data='{"type":"repo","username":"brianreavis","name":"selectize.js","owner":"brianreavis","homepage":null,"description":"A highly customizable select control with autocomplete.","language":"JavaScript","watchers":6,"followers":6,"forks":0,"size":216,"open_issues":1,"score":14.659029,"has_downloads":true,"has_issues":true,"has_wiki":true,"fork":false,"private":false,"url":"https://github.com/brianreavis/selectize.js","created":"2012-08-29T18:31:57Z","created_at":"2012-08-29T18:31:57Z","pushed_at":"2013-05-05T19:13:48Z","pushed":"2013-05-05T19:13:48Z"}'
+        value="https://github.com/selectize/selectize.js"
+        data-data='{"type":"repo","username":"selectize","name":"selectize.js","owner":"selectize","homepage":null,"description":"A highly customizable select control with autocomplete.","language":"JavaScript","watchers":310,"followers":12500,"forks":3600,"size":216,"open_issues":1,"score":14.659029,"has_downloads":true,"has_issues":true,"has_wiki":true,"fork":false,"private":false,"url":"https://github.com/brianreavis/selectize.js","created":"2012-08-29T18:31:57Z","created_at":"2012-08-29T18:31:57Z","pushed_at":"2013-05-05T19:13:48Z","pushed":"2013-05-05T19:13:48Z"}'
       >
         selectize.js
       </option>
@@ -53,6 +53,9 @@ categories:
             '<li class="forks"><span>' +
             escape(item.forks) +
             "</span> forks</li>" +
+            '<li class="stars"><span>' +
+            escape(item.followers) +
+            "</span> stars</li>" +
             "</ul>" +
             "</div>"
           );
